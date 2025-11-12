@@ -1,4 +1,6 @@
-name: Lighthouse CI
+name: Lighthouse CI  
+env:
+    TESTTOKEN: ${{ secrets.testtoken }}
 
 on:
   push:
