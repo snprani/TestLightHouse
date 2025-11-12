@@ -1,7 +1,7 @@
 module.exports = {
   ci: {
     collect: {
-      url: ['https://example.com'],
+      url: ['https://pradappandiyan.medium.com/setting-up-lighthouse-ci-from-scratch-with-github-actions-integration-1f7be5567e7f'],
       numberOfRuns: 3,
       settings: {
         chromeFlags: '--no-sandbox',
