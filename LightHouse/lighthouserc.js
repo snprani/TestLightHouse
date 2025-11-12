@@ -13,9 +13,10 @@ module.exports = {
         'categories:performance': ['error', { minScore: 0.9 }],
         'categories:accessibility': ['warn', { minScore: 0.9 }],
       },
-    },
+    },   
     upload: {
-      target: 'temporary-public-storage',
-    },
+      target: 'filesystem',
+      outputDir: './lhci-reports',
+    }
   },
 };
